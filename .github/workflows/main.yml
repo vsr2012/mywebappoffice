@@ -3,8 +3,9 @@ on:
   workflow_dispatch: 
   push:
     paths: 
-    - '!.github/**'
-    - ' ./**'
+       - ' ./**'
+       - '!.github/**'
+  
 jobs:
   build-job:
     name: Hello world action
