@@ -10,4 +10,8 @@ jobs:
       - name: Echo Hello World
         run: echo hello world
       - name: index.html Content
-        run: cat index.html
+        run: |
+            cat index.html
+            cat course.html
+            echo "This is line1"
+            echo "This is line2"
